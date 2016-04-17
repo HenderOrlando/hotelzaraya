@@ -1,0 +1,846 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hotel Zaraya</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <!-- js -->
+    <script src="js/jquery.min.js"></script>
+    <!-- //js -->
+    <!-- for-mobile-apps -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Savory Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+    function hideURLbar(){
+        window.scrollTo(0,1);
+        if(location.hash){
+            setTimeout(function(){
+                $('html,body').animate({scrollTop:$(location.hash).offset().top},1000);
+            }, 1000);
+        }
+    } </script>
+    <!-- //for-mobile-apps -->
+    <!-- start-smoth-scrolling -->
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function($) {
+            $(".scroll").click(function(event){
+                event.preventDefault();
+                $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+            });
+        });
+    </script>
+    <!-- start-smoth-scrolling -->
+
+</head>
+
+<body>
+<!-- header -->
+<div class="header">
+    <div class="container">
+        <div class="header-top">
+            <div class="num">
+                <p><span>5710829 </span> - <span>5834475</span></p>
+                <div class="line">
+                    <span> </span>
+                </div>
+            </div>
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png" alt=" " /></a>
+            </div>
+            <div class="top-icons">
+                <ul>
+                    <li><a href="https://www.facebook.com/Hotel-Zaraya-1393554484278934/timeline/" class="facebook"> </a></li>
+                    <li><a href="https://instagram.com/hotelzaraya/" class="his"> </a></li>
+                    <li><a href="https://twitter.com/hotelzaraya" class="twitter"> </a></li>
+                </ul>
+                <div class="line">
+                    <span> </span>
+                </div>
+            </div>
+            <div class="top-text">
+                <ul>
+                    <!--<li>Eng /</li>-->
+                    <li class="act"> Esp</li>
+                </ul>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+        <div class="header-bottom">
+            <span class="menu"><img src="images/menu.png" alt=" "/></span>
+            <ul class="nav1" style="text-align: center">
+                <li class="cap"><a href="index.html">INICIO</a></li>
+                <li><a href="#about" class="scroll">NOSOTROS</a></li>
+                <li><a href="#menu" class="scroll">HABITACIONES</a></li>
+                <li><a href="#reviews" class="scroll">OPINIONES</a></li>
+                <!--<li><a href="#news" class="scroll">BLOG</a></li>-->
+                <li><a href="#gallery" class="scroll">GALERÍA</a></li>
+                <li><a href="#feedback" class="scroll">CONTACTANOS</a></li>
+            </ul>
+            <!-- script for menu -->
+            <script>
+                $( "span.menu" ).click(function() {
+                    $( "ul.nav1" ).slideToggle( 300, function() {
+                        // Animation complete.
+                    });
+                });
+            </script>
+            <!-- //script for menu -->
+
+        </div>
+    </div>
+</div>
+<!-- //header -->
+<!-- banner -->
+<div class="banner">
+    <div class="container">
+        <div class="banner-info">
+            <h3>Servir a nuestros clientes
+                <span>siempre presente</span></h3>
+            <p class="europe">*Salón de Eventos*</p>
+
+            <p class="dum">Disponible para todo tipo de eventos</p>
+            <div class="reserve">
+                <a data-toggle="modal" data-target=".bs-example-modal-md" href="#" class="b-link-stripe b-animate-go  thickbox hvr-shutter-out-vertical">Reservar</a>
+            </div>
+            <script src="js/bootstrap.min.js"></script>
+            <!----start-model-box---->
+            <a data-toggle="modal" data-target=".bs-example-modal-md" href="#"> </a>
+            <div class="modal fade bs-example-modal-md light-box" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-md">
+                    <div class="modal-content light-box-info">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><img src="images/close.png" title="close" /></button>
+                        <!---strat-date-piker---->
+                        <link rel="stylesheet" href="css/jquery-ui.css" />
+                        <script src="js/jquery-ui.js"></script>
+                        <script>
+                            $(function() {
+                                $( "#datepicker,#datepicker1" ).datepicker();
+                            });
+                        </script>
+                        <!---/End-date-piker---->
+                        <div class="online_reservation">
+                            <div class="b_room">
+                                <div class="booking_room">
+                                    <div class="reservation">
+                                        <form action="sendEmail.php" method="post">
+                                            <h4>Que deseas reservar?</h4>
+                                            <div class="cuisine">
+                                                <input name="email" type="text" placeholder="Email" required=" ">
+                                            </div>
+                                            <div class="cuisine">
+                                                <input name="servicio" type="text" placeholder="Retaurante, Salón, habitación" required=" ">
+                                            </div>
+                                            <ul>
+                                                <li  class="span1_of_1 left">
+                                                    <div class="book_date">
+                                                        <input name="fecha" class="date" id="datepicker" type="text" value="2/08/2013" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = new Date().dateFormat('dd/mm/Y');}" required="">
+                                                    </div>
+                                                </li>
+                                                <li class="span1_of_1">
+                                                    <!----------start section_room------------>
+                                                    <div class="section_room">
+                                                        <select name="motivo" class="frm-field required">
+                                                            <option value="Romantica">Romantica</option>
+                                                            <option value="Paseo">Paseo</option>
+                                                            <option value="Trabajo">Trabajo</option>
+                                                            <option value="otro">Otro</option>
+                                                        </select>
+                                                    </div>
+                                                </li>
+                                                <li class="span1_of_1">
+                                                    <!----------start section_room------------>
+                                                    <div class="section_room">
+                                                        <select name="cantidad" class="frm-field required sect">
+                                                            <option value="1">1 Persona</option>
+                                                            <option value="2">2 Personas</option>
+                                                            <option value="3">3 Personas</option>
+                                                            <option value="4">4 Personas</option>
+                                                            <option value="más de 4">Más de 4 Personas</option>
+                                                        </select>
+                                                    </div>
+                                                </li>
+                                                <li class="span1_of_3">
+                                                    <div class="date_btn">
+                                                        <input name="asunto" type="hidden" placeholder="Asunto" required=" " value="Reserva desde WEB">
+                                                        <input type="submit" value="Envíe la solicitud" />
+                                                    </div>
+                                                </li>
+                                                <div class="clearfix"></div>
+                                            </ul>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!----end-model-box---->
+        </div>
+    </div>
+</div>
+<!-- //banner -->
+<!-- about -->
+<div class="about" id="about">
+    <div class="container">
+        <div class="about-info">
+            <h3>Acerca de nuestro asombroso Hotel</h3>
+            <div class="about-text">
+                <div class="about-text-left">
+                    <p>
+                        Bienvenido a nuestro hotel, nos complace recibirlo para que disfrute de la comodidad de nuestras habitaciones y de la disposición permanente de nuestros servicios. Buscamos hacer que su estadía sea lo más satisfactoria y amena posible.
+                    </p>
+                </div>
+                <div class="about-text-right">
+                    <p>
+                        El Hotel Zaraya dispone de piscina al aire libre y restaurante. También ofrece conexión WiFi gratuita, TV de pantalla plana por cable, aire acondicionado y balcón, sauna, salones para eventos, servicio de lavandería y recepción 24 horas.
+                        Nota: Para aplicar la exención del IVA al cliente extranjero, sin excepción, se debe presentar el pasaporte con los sellos de salida de cada país e ingreso a Colombia. No es válida la cédula de extranjería.
+                    </p>
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+            <!-- Slider-starts-Here -->
+            <script src="js/responsiveslides.min.js"></script>
+            <script>
+                // You can also use "$(window).load(function() {"
+                $(function () {
+                    // Slideshow 4
+                    $("#slider3").responsiveSlides({
+                        auto: true,
+                        pager: false,
+                        nav: false,
+                        speed: 500,
+                        namespace: "callbacks",
+                        before: function () {
+                            $('.events').append("<li>antes de empezar el evento.</li>");
+                        },
+                        after: function () {
+                            $('.events').append("<li>después de empezar el evento.</li>");
+                        }
+                    });
+
+                });
+            </script>
+            <!--//End-slider-script -->
+            <div  id="top" class="callbacks_container">
+                <ul class="rslides" id="slider3">
+                    <li>
+                        <div class="thank">
+                            <p>Gracias por su atención, estamos seguros de que nuestro
+                                <span>menú podrá gustarle!</span></p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="thank">
+                            <p>Un ser humano es sencillo, y necesita de la magia
+                                <span>y conocimiento del universo para mejorar.</span></p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="thank">
+                            <p>Nuestro sueño es brindar el mejor servicio hotelero
+                                <span>y atraer turismo a Cúcuta</span></p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- //about -->
+<!-- menu -->
+<div id="menu" class="classic-menu">
+    <div class="container">
+        <h3>Habitaciones</h3>
+        <div class="cake">
+            <p>* Servicios Recomendados! *</p>
+        </div>
+        <!-- Slider-starts-Here -->
+        <script src="js/responsiveslides.min.js"></script>
+        <script>
+            // You can also use "$(window).load(function() {"
+            $(function () {
+                // Slideshow 4
+                $("#slider2").responsiveSlides({
+                    auto: true,
+                    pager: false,
+                    nav: true,
+                    speed: 500,
+                    namespace: "callbacks",
+                    before: function () {
+                        $('.events').append("<li>before event fired.</li>");
+                    },
+                    after: function () {
+                        $('.events').append("<li>after event fired.</li>");
+                    }
+                });
+
+            });
+        </script>
+        <!--//End-slider-script -->
+        <div  id="top" class="callbacks_container">
+            <ul class="rslides" id="slider2">
+                <li>
+                    <div class="menu-grids">
+                        <div class="menu-grid col-md-6 col-xs-12">
+                            <a href="images/habitacion-sencilla-1.jpg" class="b-link-stripe b-animate-go rooms room-s full-width"  title="">
+                                <img class="one" style="z-index:0;" src="images/habitacion-sencilla-1.jpg" alt="Habitación Sencilla 1" title="Habitación Sencilla 1"/>
+                                <div class="b-wrapper">
+                                    <div class="b-animate b-from-left b-delay03 ">
+                                        <img class="img-responsive zoom" src="images/search.png" alt=""/>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="hidden">
+                                <a href="images/habitacion-sencilla-2.jpg" class="b-link-stripe b-animate-go rooms room-s full-width"  title="">
+                                    <img class="one" style="z-index:0;" src="images/habitacion-sencilla-2.jpg" alt="Habitación Sencilla 2" title="Habitación Sencilla 2"/>
+                                    <div class="b-wrapper">
+                                        <div class="b-animate b-from-left b-delay03 ">
+                                            <img class="img-responsive zoom" src="images/search.png" alt=""/>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <!--<div class="background-image full-width" style="background-image: url('images/habitacion-sencilla-1.jpg')"></div>-->
+                            <!--<img src="images/habitacion-doble-1.jpg" alt=" " />-->
+                            <div class="beef">
+                                <a>Habitación Sencilla</a>
+                            </div>
+                            <h4>Servicios</h4>
+                            <ul>
+                                <li>Aire acondicionado</li>
+                                <li>Internet Wifi</li>
+                                <li>Televisión por Cable</li>
+                                <li>Seguridad para Portatil</li>
+                                <li>Estacionamiento</li>
+                                <li>Desayuno</li>
+                                <li>*Mascotas</li>
+                            </ul>
+                        </div>
+                        <div class="menu-grid col-md-6 col-xs-12">
+                            <a href="images/habitacion-doble-1.jpg" class="b-link-stripe b-animate-go rooms room-d full-width"  title="">
+                                <img class="one" style="z-index:0;" src="images/habitacion-doble-1.jpg" alt="Habitación doble 1" title="Habitación doble 1"/>
+                                <div class="b-wrapper">
+                                    <div class="b-animate b-from-left b-delay03 ">
+                                        <img class="img-responsive zoom" src="images/search.png" alt=""/>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="hidden">
+                                <a href="images/habitacion-doble-2.jpg" class="b-link-stripe b-animate-go rooms room-d full-width"  title="">
+                                    <img class="one" style="z-index:0;" src="images/habitacion-doble-2.jpg" alt="Habitación doble 2" title="Habitación doble 2"/>
+                                    <div class="b-wrapper">
+                                        <div class="b-animate b-from-left b-delay03 ">
+                                            <img class="img-responsive zoom" src="images/search.png" alt=""/>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <!--<div class="background-image full-width" style="background-image: url('images/habitacion-doble-2.jpg')">
+                                &lt;!&ndash;<img src="images/habitacion-doble-2.jpg" alt=" " class="pat"/>&ndash;&gt;
+                            </div>-->
+                            <div class="bf">
+                                <a>Habitación Doble
+                                    <span></span></a>
+                            </div>
+                            <h4>Servicios</h4>
+                            <ul>
+                                <li>Aire acondicionado</li>
+                                <li>Internet Wifi</li>
+                                <li>Televisión por Cable</li>
+                                <li>Seguridad para Portátil</li>
+                                <li>Estacionamiento</li>
+                                <li>Desayuno</li>
+                                <li>*Mascotas</li>
+                            </ul>
+                        </div>
+                        <div class="clearfix"> </div>
+                        <div class="menu-grid col-md-6 col-xs-12">
+                            <a href="images/habitacion-triple-1.jpg" class="b-link-stripe b-animate-go rooms room-t full-width"  title="">
+                                <img class="one" style="z-index:0;" src="images/habitacion-triple-1.jpg" alt="Habitación triple 1" title="Habitación triple 1"/>
+                                <div class="b-wrapper">
+                                    <div class="b-animate b-from-left b-delay03 ">
+                                        <img class="img-responsive zoom" src="images/search.png" alt=""/>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="hidden">
+                                <a href="images/habitacion-triple-2.jpg" class="b-link-stripe b-animate-go rooms room-t full-width"  title="">
+                                    <img class="one" style="z-index:0;" src="images/habitacion-triple-2.jpg" alt="Habitación triple 2" title="Habitación triple 2"/>
+                                    <div class="b-wrapper">
+                                        <div class="b-animate b-from-left b-delay03 ">
+                                            <img class="img-responsive zoom" src="images/search.png" alt=""/>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <!--<div class="background-image full-width" style="background-image: url('images/habitacion-triple-1.jpg')"></div>-->
+                            <!--<img src="images/habitacion-triple-1.jpg" alt=" " />-->
+                            <div class="bf">
+                                <a>Habitación Triple
+                                    <span></span></a>
+                            </div>
+                            <h4>Servicios</h4>
+                            <ul>
+                                <li>Aire acondicionado</li>
+                                <li>Internet Wifi</li>
+                                <li>Televisión por Cable</li>
+                                <li>Caja Fuerte</li>
+                                <li>Estacionamiento</li>
+                                <li>Desayuno</li>
+                                <li>*Mascotas</li>
+                            </ul>
+                        </div>
+                        <div class="menu-grid col-md-6 col-xs-12">
+                            <a href="images/habitacion-cuadruple-1.jpg" class="b-link-stripe b-animate-go rooms room-c full-width"  title="">
+                                <img class="one" style="z-index:0;" src="images/habitacion-cuadruple-1.jpg" alt="Habitación cuadruple 1" title="Habitación cuadruple 1"/>
+                                <div class="b-wrapper">
+                                    <div class="b-animate b-from-left b-delay03 ">
+                                        <img class="img-responsive zoom" src="images/search.png" alt=""/>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="hidden">
+                                <a href="images/habitacion-cuadruple-2.jpg" class="b-link-stripe b-animate-go rooms room-c full-width"  title="">
+                                    <img class="one" style="z-index:0;" src="images/habitacion-cuadruple-2.jpg" alt="Habitación cuadruple 2" title="Habitación cuadruple 2"/>
+                                    <div class="b-wrapper">
+                                        <div class="b-animate b-from-left b-delay03 ">
+                                            <img class="img-responsive zoom" src="images/search.png" alt=""/>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <!--<div class="background-image full-width" style="background-image: url('images/habitacion-doble-2.jpg')"></div>-->
+                            <!--<img src="images/habitacion-doble-2.jpg" alt=" " class="pat"/>-->
+                            <div class="bf">
+                                <a>Habitación Cuadruple
+                                    <span></span></a>
+                            </div>
+                            <h4>Servicios</h4>
+                            <ul>
+                                <li>Aire acondicionado</li>
+                                <li>Internet Wifi</li>
+                                <li>Televisión por Cable</li>
+                                <li>Seguridad para Portátil</li>
+                                <li>Estacionamiento</li>
+                                <li>Desayuno</li>
+                                <li>*Mascotas</li>
+                            </ul>
+                        </div>
+                        <div class="clearfix"> </div>
+                        <!--<div class="reserve1">
+                            <a data-toggle="modal" data-target=".bs-example-modal-md" href="#" class="b-link-stripe b-animate-go  thickbox hvr-shutter-out-vertical">Reserve a table</a>
+                        </div>-->
+                    </div>
+                    <script type="text/javascript">
+                        jQuery(function($) {
+                            $(".rooms").each(function(){
+                                $('.'+$(this).attr('class').split(" ").join('.')).swipebox();
+                            });
+                        });
+                    </script>
+                </li>
+            </ul>
+            <br/>
+            <p style="font-size: 12px;text-align: center">* Disponible con cargo adicional</p>
+        </div>
+
+    </div>
+</div>
+<!-- //menu -->
+<!-- reviews -->
+<div id="reviews" class="reviews">
+    <div class="opacity-black"></div>
+    <div class="container">
+        <!-- Slider-starts-Here -->
+        <script src="js/responsiveslides.min.js"></script>
+        <script>
+            // You can also use "$(window).load(function() {"
+            $(function () {
+                // Slideshow 4
+                $("#slider4").responsiveSlides({
+                    auto: true,
+                    pager: true,
+                    nav: false,
+                    speed: 500,
+                    namespace: "callbacks",
+                    before: function () {
+                        $('.events').append("<li>before event fired.</li>");
+                    },
+                    after: function () {
+                        $('.events').append("<li>after event fired.</li>");
+                    }
+                });
+
+            });
+        </script>
+        <!--//End-slider-script -->
+        <div  id="top" class="callbacks_container">
+            <ul class="rslides" id="slider4">
+                <li>
+                    <div class="reviews-info">
+                        <h3>Opiniones</h3>
+                        <div class="rev-dot">
+                            <span> </span>
+                        </div>
+                        <div class="rev-wom">
+                            <span> </span>
+                        </div>
+                        <h4>Carolina</h4>
+                        <p>La ubicación es insuperable. En la recepción la atención fue excelente. Todo el personal muy atento. El desayuno de muy buen sabor. Sin duda volvería.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="reviews-info">
+                        <h3>Opiniones</h3>
+                        <div class="rev-dot">
+                            <span> </span>
+                        </div>
+                        <div class="rev-wom2">
+                            <span> </span>
+                        </div>
+                        <h4>Luis</h4>
+                        <p>El personal de recepción y servicio es amable, colaborador;  La piscina muy bien mantenida.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="reviews-info">
+                        <h3>Opiniones</h3>
+                        <div class="rev-dot">
+                            <span> </span>
+                        </div>
+                        <div class="rev-wom1">
+                            <span> </span>
+                        </div>
+                        <h4>Ingrid</h4>
+                        <p>Muy bonitas las instalaciones y céntrico el lugar.</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- //reviews -->
+<!-- news -->
+<div id="news" class="news">
+    <div class="container">
+        <!--<h3>Blog</h3>-->
+        <div class="news-grids">
+            <div class="col-md-4 news-grid">
+                <img src="images/salon-eventos-1.jpg" alt="Salón de Eventos" />
+                <h4>Salón de Eventos</h4>
+                <p>Se dispone de 2 salones de eventos con capacidad de 40 a 60 personas, ideal para charlas, conferencias y reuniones</p>
+            </div>
+            <div class="col-md-4 news-grid">
+                <img src="images/restaurante-toro-gallo.png" alt="Restaurante Toro Gallo" />
+                <h4>Toro Gallo Restaurante</h4>
+                <p>Nuestro restaurante tiene especialidad en carnes, mariscos y comida árabe</p>
+            </div>
+            <div class="col-md-4 news-grid">
+                <img src="images/promo-1.jpg" alt="Promo Octubre" />
+                <h4>Noche Romántica</h4>
+                <p>Disfruta la noche romántica para 2, decoracion especial, botella de vino o champagne, canasta de frutas y desayuno a la habitación</p>
+            </div>
+            <div class="clearfix"> </div>
+            <!--<div class="col-md-4 news-grid">
+                <img src="images/promo-4.png" alt=" " />
+                <h4></h4>
+                <p></p>
+            </div>-->
+            <div class="clearfix"> </div>
+            <!--<div class="reserve1">
+                <a href="single.html" class="hvr-shutter-out-vertical">Lees todos</a>
+            </div>-->
+        </div>
+    </div>
+</div>
+<!-- //news -->
+<!-- gallery -->
+<div id="gallery" class="gallery">
+    <div class="container">
+        <h3>galería de fotos</h3>
+        <div class="gallery-grids">
+            <div class="gallery-grid">
+                <a href="images/galeria-1.jpg" class="b-link-stripe b-animate-go   swipebox"  title="">
+                    <img class="one" src="images/galeria-1.jpg" alt=" " title=" "/>
+                    <div class="b-wrapper">
+                        <h2 class="b-animate b-from-left    b-delay03 ">
+                            <img class="img-responsive zoom" src="images/search.png" alt=""/>
+                            <p>Necesita Atención?</p>
+                        </h2>
+                    </div>
+                </a>
+            </div>
+            <div class="gallery-grid">
+                <a href="images/galeria-2.jpg" class="b-link-stripe b-animate-go   swipebox"  title="">
+                    <img class="one" src="images/galeria-2.jpg" alt=" " title=""/>
+                    <div class="b-wrapper">
+                        <h2 class="b-animate b-from-left    b-delay03 ">
+                            <img class="img-responsive zoom" src="images/search.png" alt=""/>
+                            <p>Dentro, último piso</p>
+                        </h2>
+                    </div>
+                </a>
+            </div>
+            <div class="gallery-grid">
+                <a href="images/galeria-3.jpg" class="b-link-stripe b-animate-go   swipebox"  title="">
+                    <img class="one" src="images/galeria-3.jpg" alt=" " title=""/>
+                    <div class="b-wrapper">
+                        <h2 class="b-animate b-from-left    b-delay03 ">
+                            <img class="img-responsive zoom" src="images/search.png" alt=""/>
+                            <p>Balcón de la piscina</p>
+                        </h2>
+                    </div>
+                </a>
+            </div>
+            <div class="gallery-grid">
+                <a href="images/galeria-4.jpg" class="b-link-stripe b-animate-go   swipebox"  title="">
+                    <img class="one" src="images/galeria-4.jpg" alt=" " title=" "/>
+                    <div class="b-wrapper">
+                        <h2 class="b-animate b-from-left    b-delay03 ">
+                            <img class="img-responsive zoom" src="images/search.png" alt=""/>
+                            <p>Nuestra Presentación</p>
+                        </h2>
+                    </div>
+                </a>
+            </div>
+            <div class="clearfix"> </div>
+            <div class="gallery-grid">
+                <a href="images/galeria-5.jpg" class="b-link-stripe b-animate-go   swipebox"  title="">
+                    <img class="one" src="images/galeria-5.jpg" alt=" " title=""/>
+                    <div class="b-wrapper">
+                        <h2 class="b-animate b-from-left    b-delay03 ">
+                            <img class="img-responsive zoom" src="images/search.png" alt=""/>
+                            <p>Nuestro Servicio Ejecutivo</p>
+                        </h2>
+                    </div>
+                </a>
+            </div>
+            <div class="gallery-grid">
+                <a href="images/galeria-6.jpg" class="b-link-stripe b-animate-go   swipebox"  title="">
+                    <img class="one" src="images/galeria-6.jpg" alt=" " title=""/>
+                    <div class="b-wrapper">
+                        <h2 class="b-animate b-from-left    b-delay03 ">
+                            <img class="img-responsive zoom" src="images/search.png" alt=""/>
+                            <p>Una Sala</p>
+                        </h2>
+                    </div>
+                </a>
+            </div>
+            <div class="gallery-grid">
+                <a href="images/galeria-7.jpg" class="b-link-stripe b-animate-go   swipebox"  title="">
+                    <img class="one" src="images/galeria-7.jpg" alt=" " title=""/>
+                    <div class="b-wrapper">
+                        <h2 class="b-animate b-from-left    b-delay03 ">
+                            <img class="img-responsive zoom" src="images/search.png" alt=""/>
+                            <p>Escaleras al Segundo piso</p>
+                        </h2>
+                    </div>
+                </a>
+            </div>
+            <div class="gallery-grid">
+                <a href="images/galeria-8.jpg" class="b-link-stripe b-animate-go   swipebox"  title="">
+                    <img class="one" src="images/galeria-8.jpg" alt=" " title=""/>
+                    <div class="b-wrapper">
+                        <h2 class="b-animate b-from-left    b-delay03 ">
+                            <img class="img-responsive zoom" src="images/search.png" alt=""/>
+                            <p>Pasillo</p>
+                        </h2>
+                    </div>
+                </a>
+            </div>
+            <div class="clearfix"> </div>
+            <link rel="stylesheet" href="css/swipebox.css">
+            <script src="js/jquery.swipebox.min.js"></script>
+            <script type="text/javascript">
+                jQuery(function($) {
+                    $(".swipebox").swipebox();
+                });
+            </script>
+            <script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+            <script type="text/javascript">
+                $(function () {
+
+                    var filterList = {
+
+                        init: function () {
+
+                            // MixItUp plugin
+                            // http://mixitup.io
+                            $('#portfoliolist').mixitup({
+                                targetSelector: '.portfolio',
+                                filterSelector: '.filter',
+                                effects: ['fade'],
+                                easing: 'snap',
+                                // call the hover effect
+                                onMixEnd: filterList.hoverEffect()
+                            });
+
+                        },
+                        hoverEffect: function () {
+
+                            // Simple parallax effect
+                            $('#portfoliolist .portfolio').hover(
+                                    function () {
+                                        $(this).find('.label').stop().animate({bottom: 0}, 200, 'easeOutQuad');
+                                        $(this).find('img').stop().animate({top: -30}, 500, 'easeOutQuad');
+                                    },
+                                    function () {
+                                        $(this).find('.label').stop().animate({bottom: -40}, 200, 'easeInQuad');
+                                        $(this).find('img').stop().animate({top: 0}, 300, 'easeOutQuad');
+                                    }
+                            );
+
+                        }
+
+                    };
+                    // Run the show!
+                    filterList.init();
+                });
+            </script>
+        </div>
+    </div>
+</div>
+<!-- //gallery -->
+<!-- feedback -->
+<div id="feedback" class="feedback">
+    <div class="container">
+        <div class="feedback-info">
+            <form action="sendEmail.php" method="post">
+                <h3>Contáctanos</h3>
+                <p class="lo">Compartanos sus dudas, estaremos gustosos de atenderlas.</p>
+                <div class="name">
+                    <p id="contact">nombre</p>
+                    <input name="nombre" type="text" placeholder="Tu Nombre" required=" ">
+                </div>
+                <div class="name na">
+                    <p id="email">E-mail</p>
+                    <input name="email" type="text" placeholder="Tu E-mail" required=" ">
+                </div>
+                <div class="name">
+                    <p>Número de teléfono:</p>
+                    <input name="telefono" type="text" placeholder="Tu Número de teléfono" required=" ">
+                </div>
+                <div class="comment">
+                    <p>Comentario/Duda:</p>
+                    <textarea name="mensaje" placeholder="Escribe aquí tu comentario/duda...." required=" "></textarea>
+                </div>
+                <div class="sub">
+                    <input name="asunto" type="hidden" placeholder="Asunto" required=" " value="Contacto desde WEB">
+                    <input type="submit" value="Enviar">
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- //feedback -->
+<!-- footer -->
+<div class="footer">
+    <div class="container">
+        <div class="footer-info">
+            <div class="col-md-3 footer-left">
+                <!--<a href="index.html"><img src="images/logo.png" alt=" " /></a>-->
+                <p>Construido por <a href="http://solucionescucuta.com/">Soluciones Cúcuta</a></p>
+            </div>
+            <div class="col-md-6 footer-left">
+                <ul class="foot-nav">
+                    <li class="cap"><a href="index.html">INICIO</a></li>
+                    <li><a href="#about" class="scroll">NOSOTROS</a></li>
+                    <li><a href="#menu" class="scroll">HABITACIONES</a></li>
+                    <li><a href="#reviews" class="scroll">OPINIONES</a></li>
+                    <!--<li><a href="#news" class="scroll">BLOG</a></li>-->
+                    <li><a href="#gallery" class="scroll">GALERÍA</a></li>
+                    <li><a href="#feedback" class="scroll">CONTACTANOS</a></li>
+                </ul>
+                <div class="footer-line">
+                    <span> </span>
+                </div>
+                <ul class="footbo">
+                    <!--<li class="chu">Ver en mapa</li>-->
+                    <li><a href="hotel.zaraya@hotmail.com">hotel.zaraya@hotmail.com</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 footer-left">
+                <ul class="social">
+                    <li><a href="https://www.facebook.com/Hotel-Zaraya-1393554484278934/timeline/" class="facebook1"> </a></li>
+                    <li><a href="https://instagram.com/hotelzaraya/" class="his1"> </a></li>
+                    <li><a href="https://twitter.com/hotelzaraya" class="twitter1"> </a></li>
+                </ul>
+                <ul class="footer-number">
+                    <li>Teléfonos</li>
+                    <li>5710829 - 5834475</li>
+                    <li>Dirección Calle 11 2-40 Centro</li>
+                </ul>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+    </div>
+</div>
+<!-- //footer -->
+<!-- here stars scrolling icon -->
+<div class="modal fade" id="message" role="dialog">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Hotel Zaraya</h4>
+            </div>
+            <div class="modal-body"></div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    $(document).ready(function() {
+        /*
+         var defaults = {
+         containerID: 'toTop', // fading element id
+         containerHoverID: 'toTopHover', // fading element hover id
+         scrollSpeed: 1200,
+         easingType: 'linear'
+         };
+         */
+        $('form').each(function(){
+            var form = $(this);
+            form.submit(function(){
+                $.ajax({
+                    type: "POST",
+                    url: form.attr('action'),
+                    data: form.serialize(), // Adjuntar los campos del formulario enviado.
+                    success: function(data){
+                        $(data).each(function(){
+                            if($(this).hasClass('message')){
+                                var message = $("#message");
+                                message.find('.modal-body').html($(this).html());
+                                message.modal('show');
+                            }
+                        });
+                    }
+                });
+                return false;
+            });
+        });
+
+        $().UItoTop({ easingType: 'easeOutQuart' });
+
+    });
+</script>
+<!-- //here ends scrolling icon -->
+</body>
+</html>
